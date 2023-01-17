@@ -1,0 +1,4 @@
+tad_grillesudoku.adb:94:10: error: expected a boolean type
+tad_grillesudoku.adb:94:10: error: found type "Standard.Integer"
+tad_grillesudoku.adb:169:10: warning: obtenirChiffresDUneColonne unimplemented [enabled by default]
+tad_grillesudoku.adb:184:10: warning: obtenirChiffresDUnCarre unimplemented [enabled by default]

@@ -1,0 +1,68 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U resolutions%b		resolutions.adb		d40b30d2 NE OO PK IL
+Z ada.exceptions%s	a-except.adb		a-except.ali
+
+U resolutions%s		resolutions.ads		d129a838 EE OO PK IL
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W tad_coordonnee%s	tad_coordonnee.adb	tad_coordonnee.ali
+W tad_ensemble%s	tad_ensemble.adb	tad_ensemble.ali
+W tad_grillesudoku%s	tad_grillesudoku.adb	tad_grillesudoku.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D resolutions.ads	20220104154036 41cee581 resolutions%s
+D resolutions.adb	20220104154036 95c5d553 resolutions%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D tad_coordonnee.ads	20220105140134 513dde5c tad_coordonnee%s
+D tad_ensemble.ads	20220105150018 340d799a tad_ensemble%s
+D tad_grillesudoku.ads	20220104154036 f5d7ea7f tad_grillesudoku%s
+G a e
+G c Z s b [estchiffrevalable resolutions 15 13 none]
+G c Z s b [obtenirsolutionspossibles resolutions 23 13 none]
+G c Z s b [recherchersolutionuniquedansensemble resolutions 31 13 none]
+G c Z s b [resoudresudoku resolutions 38 14 none]
+X 4 resolutions.ads
+5K9*resolutions 42l5 42e16 5|2b14 59l5 59t16
+7X4*PLUS_DE_UN_CHIFFRE
+8X4*CASE_NON_VIDE
+9X4*ENSEMBLE_VIDE
+15V13*estChiffreValable{boolean} 16>7 17>7 18>7 5|8b13 16l8 16t25
+16a7 g{13|6A9} 5|9b7
+17i7 v{integer} 5|9b27
+18r7 c{11|3R9} 5|9b40
+23V13*obtenirSolutionsPossibles{12|6A9} 24>7 25>7 5|22b13 31l8 31t33
+24a7 g{13|6A9} 5|23b7
+25r7 c{11|3R9} 5|23b27
+31V13*rechercherSolutionUniqueDansEnsemble{integer} 32>7 5|37b13 46l8 46t44
+32a7 resultats{12|6A9} 5|38b7
+38U14*resoudreSudoku 39=7 40<7 5|52b14 57l8 57t22
+39a7 g{13|6A9} 5|52b30
+40b7 trouve{boolean} 5|52b54
+X 11 tad_coordonnee.ads
+1K9*TAD_Coordonnee 4|1w6 1r28 11|28e19
+3R9*Type_Coordonnee 4|18r14 25r14 5|9r44 23r34 11|26e14
+X 12 tad_ensemble.ads
+1K9*TAD_ensemble 4|2w6 2r28 12|34e17
+6A9*Type_Ensemble(boolean) 4|25r38 32r22 5|23r58 38r22
+X 13 tad_grillesudoku.ads
+4K9*TAD_grilleSudoku 4|3w6 3r28 13|66e21
+6A9*Type_Grille(integer) 4|16r14 24r14 39r23 5|9r14 23r14 52r41
+

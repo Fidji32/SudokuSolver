@@ -1,0 +1,147 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U remplirgrille%b	remplirgrille.adb	a49c270c NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+W tad_coordonnee%s	tad_coordonnee.adb	tad_coordonnee.ali
+
+U remplirgrille%s	remplirgrille.ads	38cbe97f EE NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W tad_grillesudoku%s	tad_grillesudoku.adb	tad_grillesudoku.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-inteio.ads		20210520051128 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D remplirgrille.ads	20220104161842 cd1c0300 remplirgrille%s
+D remplirgrille.adb	20220104172602 6002a699 remplirgrille%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D tad_coordonnee.ads	20220105140134 513dde5c tad_coordonnee%s
+D tad_ensemble.ads	20220105150018 340d799a tad_ensemble%s
+D tad_grillesudoku.ads	20220104154036 f5d7ea7f tad_grillesudoku%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [grille1trestresfaciledunouvelan2018 remplirgrille 5 13 none]
+G c Z s b [grille2trestresfacile remplirgrille 6 13 none]
+G c Z s b [grille3tresfacile remplirgrille 7 13 none]
+G c Z s b [grille4facile remplirgrille 8 13 none]
+G c Z s b [grille5facile remplirgrille 9 13 none]
+G c Z s b [grille6moyen remplirgrille 10 13 none]
+G c Z s b [grille7difficile remplirgrille 11 13 none]
+G c Z s b [grille8difficile remplirgrille 12 13 none]
+G c Z s b [grille9tresdifficile remplirgrille 13 13 none]
+G c Z b b [remplir_grille remplirgrille 7 13 none]
+G r c none [grille1trestresfaciledunouvelan2018 remplirgrille 5 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [grille1trestresfaciledunouvelan2018 remplirgrille 5 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [grille1trestresfaciledunouvelan2018 remplirgrille 5 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [grille2trestresfacile remplirgrille 6 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [grille2trestresfacile remplirgrille 6 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [grille2trestresfacile remplirgrille 6 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [grille3tresfacile remplirgrille 7 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [grille3tresfacile remplirgrille 7 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [grille3tresfacile remplirgrille 7 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [grille4facile remplirgrille 8 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [grille4facile remplirgrille 8 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [grille4facile remplirgrille 8 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [grille5facile remplirgrille 9 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [grille5facile remplirgrille 9 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [grille5facile remplirgrille 9 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [grille6moyen remplirgrille 10 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [grille6moyen remplirgrille 10 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [grille6moyen remplirgrille 10 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [grille7difficile remplirgrille 11 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [grille7difficile remplirgrille 11 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [grille7difficile remplirgrille 11 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [grille8difficile remplirgrille 12 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [grille8difficile remplirgrille 12 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [grille8difficile remplirgrille 12 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [grille9tresdifficile remplirgrille 13 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [grille9tresdifficile remplirgrille 13 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [grille9tresdifficile remplirgrille 13 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+G r c none [remplir_grille remplirgrille 7 13 none] [construiregrille tad_grillesudoku 14 13 none]
+G r c none [remplir_grille remplirgrille 7 13 none] [construirecoordonnees tad_coordonnee 6 13 none]
+G r c none [remplir_grille remplirgrille 7 13 none] [fixerchiffre tad_grillesudoku 35 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 16|2r6 2r31 3r6 3r31
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 16|3w10 3r35
+X 10 a-textio.ads
+58K13*Text_IO 725e16 16|2w10 2r35
+65P9*File_Type 16|10r11
+67n23*In_File{67E9} 16|14r16
+112U14*Open 16|14s7
+127U14*Close 16|27s7
+268U14*Skip_Line 16|24s13
+310V13*End_Of_File{boolean} 16|23s17
+X 11 a-tiinio.ads
+51U14*Get 16|19s13[3|18]
+X 15 remplirgrille.ads
+3K9*remplirGrille 15l5 15e18 16|5b14 112l5 112t18
+5V13*grille1TresTresFacileDuNouvelAn2018{35|6A9} 16|35b13 38l8 38t43
+6V13*grille2TresTresFacile{35|6A9} 16|44b13 47l8 47t29
+7V13*grille3TresFacile{35|6A9} 16|53b13 56l8 56t25
+8V13*grille4Facile{35|6A9} 16|62b13 65l8 65t21
+9V13*grille5Facile{35|6A9} 16|71b13 74l8 74t21
+10V13*grille6Moyen{35|6A9} 16|80b13 83l8 83t20
+11V13*grille7Difficile{35|6A9} 16|89b13 92l8 92t24
+12V13*grille8Difficile{35|6A9} 16|98b13 101l8 101t24
+13V13*grille9TresDifficile{35|6A9} 16|107b13 110l8 110t28
+X 16 remplirgrille.adb
+7V13 Remplir_Grille{35|6A9} 7b13 7>29 29l8 29t22 37s14 46s14 55s14 64s14
+. 73s14 82s14 91s14 100s14 109s14
+7a29 Nom_Fichier{string} 14r38
+8a7 G{35|6A9} 16m7 21m27 21r27 28r14
+9r7 C{33|3R9} 20m13 21r30
+10p7 F{10|65P9} 14m13 14r13 19r18 23r30 24r24 27m14 27r14
+11i7 V{integer} 19m21 21r33
+17i11 I{integer} 20r41
+18i14 J{integer} 20r44
+X 33 tad_coordonnee.ads
+1K9*TAD_Coordonnee 16|1w6 1r31 33|28e19
+3R9*Type_Coordonnee 16|9r11 33|26e14
+6V13*construireCoordonnees{3R9} 16|20s18
+X 35 tad_grillesudoku.ads
+4K9*TAD_grilleSudoku 15|1w6 1r28 35|66e21
+6A9*Type_Grille(integer) 15|5r56 6r42 7r38 8r34 9r34 10r33 11r37 12r37 13r41
+. 16|7r58 8r11 35r56 44r42 53r38 62r34 71r34 80r33 89r37 98r37 107r41
+14V13*construireGrille{6A9} 16|16s12
+35U14*fixerChiffre 16|21s13
+

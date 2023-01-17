@@ -1,0 +1,5 @@
+resolutions.adb:13:10: warning: estChiffreValable unimplemented [enabled by default]
+resolutions.adb:27:10: warning: obtenirSolutionsPossibles unimplemented [enabled by default]
+resolutions.adb:42:10: warning: rechercherSolutionUniqueDansEnsemble unimplemented [enabled by default]
+resolutions.adb:52:54: warning: formal parameter "trouve" is not referenced [-gnatwf]
+resolutions.adb:55:10: warning: resoudreSudoku unimplemented [enabled by default]

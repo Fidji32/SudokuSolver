@@ -1,0 +1,27 @@
+[GENERATED OBJECT FILE]
+b__run_tests_tad_ensemble.o
+[PROJECT FILES]
+C:\Users\matth\Desktop\SAE1.02_Sudoku_Version_etudiants_PM-FV_21-22\sudoku.gpr
+20220104154632 518f796ba195b5d313b2ad69c6f65032
+[BOUND OBJECT FILES]
+C:\Users\matth\Desktop\SAE1.02_Sudoku_Version_etudiants_PM-FV_21-22\obj\TAD_coordonnee.o
+C:\Users\matth\Desktop\SAE1.02_Sudoku_Version_etudiants_PM-FV_21-22\obj\TAD_ensemble.o
+C:\Users\matth\Desktop\SAE1.02_Sudoku_Version_etudiants_PM-FV_21-22\obj\TAD_grillesudoku.o
+C:\Users\matth\Desktop\SAE1.02_Sudoku_Version_etudiants_PM-FV_21-22\obj\affichage.o
+C:\Users\matth\Desktop\SAE1.02_Sudoku_Version_etudiants_PM-FV_21-22\obj\remplirGrille.o
+C:\Users\matth\Desktop\SAE1.02_Sudoku_Version_etudiants_PM-FV_21-22\obj\resolutions.o
+C:\Users\matth\Desktop\SAE1.02_Sudoku_Version_etudiants_PM-FV_21-22\obj\tests.o
+C:\Users\matth\Desktop\SAE1.02_Sudoku_Version_etudiants_PM-FV_21-22\obj\tests_TAD_Ensemble.o
+C:\Users\matth\Desktop\SAE1.02_Sudoku_Version_etudiants_PM-FV_21-22\obj\run_tests_TAD_Ensemble.o
+[GENERATED SOURCE FILES]
+b__run_tests_tad_ensemble.ads
+b__run_tests_tad_ensemble.adb
+b__run_tests_tad_ensemble.ali
+[RESULTING OPTIONS]
+-LC:\Users\matth\Desktop\SAE1.02_Sudoku_Version_etudiants_PM-FV_21-22\obj\
+-LC:\Users\matth\Desktop\SAE1.02_Sudoku_Version_etudiants_PM-FV_21-22\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
